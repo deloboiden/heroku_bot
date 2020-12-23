@@ -1,0 +1,4 @@
+telepot~=12.7
+matplotlib~=3.2.2
+schedule~=0.6.0
+requests~=2.25.0
