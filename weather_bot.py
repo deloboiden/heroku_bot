@@ -79,7 +79,7 @@ class Weather_bot(telepot.helper.ChatHandler):
         return True
 
     def SaveGraphic(self, x, y):
-        plt.plot(x, y)
+        plt.plot(x, y, color='r')
         plt.tight_layout()
         plt.savefig('graphic.png', type='png')
         plt.close()
